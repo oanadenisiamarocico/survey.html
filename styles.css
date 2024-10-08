@@ -1,0 +1,100 @@
+body {
+  background-image: url(https://media.greenmatters.com/brand-img/ZochFRvBX/0x0/causes-of-global-warming-1579628524578.jpg);
+  background-size: cover; /* Ensures the image covers the full screen */
+  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the image fixed when scrolling */
+  color: white;
+}
+ 
+ form {
+  background-color: rgba(255, 255, 255, 0.5); /* Changed percentage to decimal for opacity */
+  background-position: center;
+  max-width: 500px;
+  min-width: 450px;
+  margin: 0 auto; /* Centers the form horizontally */
+  padding: 20px; /* Optional: Add padding to avoid content touching edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds some shadow for better look */
+  border-radius: 10px; /* Optional: Rounded corners */
+  color:#333333;
+}
+ 
+ #name-label, #email-label, #number-label{
+   display:block;
+   align-items:center;
+  height:50px;
+ }
+ 
+ #name, #email, #number{
+    display:block;
+    height:30px;
+    width:400px;
+   
+ }
+ 
+ 
+ 
+ input{
+   display:inline-block;
+ }
+ 
+ h1, p{
+   text-align:center;
+   margin:auto;
+   font-family:courier;
+   color: #333333;
+ }
+ 
+ label{
+   font-family:courier;
+   font-size:15px;
+   color: #333333;
+ }
+ 
+ label{
+   display:block;
+   
+
+ }
+ 
+ div{
+   margin:20px;
+ }
+ 
+ .more{
+   margin-left:0;
+ }
+ 
+ legend{
+   padding:0 10px;
+   font-size:15px;
+ }
+ 
+ fieldset{
+ width:400px;
+ height:30px;
+ margin-left:20px;
+ }
+ 
+ 
+ 
+ textarea{
+ width:400px;
+ height:150px;
+ 
+ }
+ 
+ button{
+   padding:10px 20px;
+   font-size:20px;
+   border-radius:10px;
+   border:none;
+   cursor:pointer;
+   color: #333333;
+ }
+ 
+ 
+ 
+ 
+ 
+ 

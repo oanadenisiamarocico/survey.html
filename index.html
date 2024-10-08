@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey-form</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1 id="title">How can we prevent global warming?</h1>
+    <p id="description">Thank you for taking the time to complete this survey.</p>
+    
+      <form id="survey-form">
+        <div>
+        <label id="name-label">Name<input placeholder="Enter your name" required id="name" type="text"/></label>
+    <label id="email-label">Email<input placeholder="Enter your email" required type="email" id="email"/></label>
+    <label id="number-label">Age <input maxlength="3" placeholder="Age" id="number" type="number" min="15" max="100" /></label>
+  </div>
+  <div>
+<label>Do you have the posibility to change something?</label>
+  <select id="dropdown">
+    <option id="maybe">Maybe</option>
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select>
+  </div>
+
+  <fieldset >
+    <legend>Would you consider living plastic-free?</legend>
+ Yes<input type="radio" value="yes" name="answer"/>
+  No<input type="radio" value="no" name="answer"/>
+  </fieldset>
+
+  <div>What do you think will help the most?
+
+    <label ><input type="checkbox" value="drive-less"/>Drive less</label>
+     <label ><input type="checkbox" value="plant-a-tree"/>Plant a tree</label>
+    <label ><input type="checkbox" value="recycle-more"/>Recycle more</label>
+     <label ><input type="checkbox" value="all-of-the-above"/>All of the above</label>
+
+  <div class="more">
+    <label >More suggestions?</label>
+    <textarea placeholder="Suggestions"></textarea>
+  </div>
+  <div>
+    <button id="submit" type="submit">Submit</button>
+  </div>
+      </form>
+  
+  </body>
+</html>
